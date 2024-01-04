@@ -1,0 +1,52 @@
+.bg-YlnMnBlue {
+    background: #3E517A;
+}
+.bg-YlnMnLightBlue {
+    background: #506186;
+}
+.bg-Platinum {
+    background: #D7DEDC;
+}
+.bg-WhiteSmoke {
+    background: #F5F3F5;
+}
+.bg-Jet {
+    background: #302B27;
+}
+.bg-SpaceCadet {
+    background: #1B264F;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    outline-color: #D7DEDC !important;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #506186 !important;
+    border-color: #506186 !important;
+}
+.btn-primary:hover {
+    background-color: #3E517A !important;
+    border-color: #3E517A !important;
+}
+
+#typedheader {
+    font-family: monospace, monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #C4554D;
+}
+.typed-cursor{
+    font-family: monospace, monospace;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 991px) {
+    #profileimg {
+        display: none;
+    }
+}
