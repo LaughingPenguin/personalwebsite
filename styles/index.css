@@ -32,6 +32,9 @@
 .hide-lg {
     display: none;
 }
+.desktop-hidden {
+    display: none;
+}
 @media (max-width: 991.98px) {
     .hide-lg {
         display: block;
@@ -41,6 +44,12 @@
     }
     #profileimg {
         display: none;
+    }
+    .mobile-hidden {
+        display: none;
+    }
+    .desktop-hidden {
+        display: inline-block;
     }
 }
 @media (max-width: 575.98px) {

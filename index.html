@@ -80,9 +80,22 @@
             wireless networks using neural networks. I am also interested in
             using data to inform business strategies. Let's connect!
           </p>
-          <button type="button" class="btn btn-primary btn-ml px-4 me-md-2">
+          <button
+            type="button"
+            class="btn mobile-hidden btn-primary btn-ml px-4 me-md-2"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
             <i class="fa-solid fa-file"></i> &nbspResume
           </button>
+          <a
+            class="btn desktop-hidden btn-primary btn-ml px-4 me-md-2"
+            href="assets/resume.pdf"
+            target="_blank"
+            role="button"
+            ><i class="fa-solid fa-file"></i> &nbspResume</a
+          >
         </div>
       </div>
       <table class="table table-striped">
@@ -117,12 +130,54 @@
           </tr>
         </tbody>
       </table>
-      <hr/>
+      <hr />
       <p class="text-center text-wrap fw-light text-muted">
         A portfolio website for Haoran (Steven) Xu. Connect with me through
-        <i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/LaughingPenguin" class="linked-primary">Github</a> or
-        <i class="fa-brands fa-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/stevenxu2469/" class="linked-primary">LinkedIn</a>!
+        <i class="fa-brands fa-github"></i>
+        <a
+          target="_blank"
+          href="https://github.com/LaughingPenguin"
+          class="linked-primary"
+          >Github</a
+        >
+        or <i class="fa-brands fa-linkedin"></i>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/stevenxu2469/"
+          class="linked-primary"
+          >LinkedIn</a
+        >!
       </p>
+      <div
+        class="offcanvas offcanvas-bottom h-50"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasBottomLabel"
+      >
+        <div class="offcanvas-header">
+          <a
+            class="btn btn-primary btn-sm"
+            href="assets/resume.pdf"
+            target="_blank"
+            role="button"
+            >Open in New Tab</a
+          >
+          <button
+            type="button"
+            class="btn-close btn-lg text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <embed
+            src="assets/resume.pdf"
+            frameborder="0"
+            width="100%"
+            height="500px"
+          />
+        </div>
+      </div>
     </div>
 
     <script
