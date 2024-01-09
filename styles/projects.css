@@ -1,0 +1,46 @@
+.bg-Jet {
+    background: #333A4C;
+}
+.bg-GBlue {
+    background-color: #4285F4;
+}
+.bg-GRed {
+    background-color: #DB4437;
+}
+.bg-GYellow {
+    background-color: #F4B400;
+}
+.bg-GGreen {
+    background-color: #0F9D58;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    outline-color: #D7DEDC !important;
+    box-shadow: none;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+.hide-lg {
+    display: none;
+}
+@media (max-width: 991.98px) {
+    .hide-lg {
+        display: block;
+    }
+    .show-lg {
+        display: none;
+    }
+}
+@media (max-width: 575.98px) {
+    #mobile-response {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

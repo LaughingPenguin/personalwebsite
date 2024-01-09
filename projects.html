@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <title>Projects Section</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("assets/background-2732x1536.png");
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+      }
+    </style>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-Jet">
+      <div id="mobile-response" class="container px-1">
+        <a class="navbar-brand" href="#">Steven's Personal Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fa-solid fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href=".">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Let's Connect!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container shadow-lg px-4 py-4 bg-white rounded">
+      <div class="row row-cols-2 row-cols-lg-12 g-4 show-lg">
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GBlue">
+              January 2024-Present
+            </h5>
+            <div class="card-body">
+              <h4 class="card-title">Wesleyan Water Dispensers</h4>
+              <p class="card-text">
+                Currently an ongoing project, we aim to create a web app where
+                Wesleyan students and faculty can add, rate, and review water
+                dispensers around campus. Planned features include the ability
+                to search for water dispensers by distance, rating, and
+                accessibilty, visual aid to help users find their desired water
+                dispenser, and more!
+              </p>
+              <footer class="blockquote-footer">
+                React, Express.js, SQL, AWS
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/waterdispenser_v2"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GRed">November 2023</h5>
+            <div class="card-body">
+              <h4 class="card-title">MyMusicList (Android)</h4>
+              <p class="card-text">
+                Building off of MyMusicList (Web), we created a different
+                front-end client for the same back-end server. We experimented
+                with different versions of Android and various Android phones
+                when testing our app, and wrote unit tests to ensure everything
+                was functional.
+              </p>
+              <footer class="blockquote-footer">
+                React Native, Expo, MVC, Unit Testing
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/mymusiclist_expoapp"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GYellow">October 2023</h5>
+            <div class="card-body">
+              <h4 class="card-title">MyMusicList (Web)</h4>
+              <p class="card-text">
+                MyMusicList (web) is a basic web app where users can rate songs
+                and share their review with others. Basic features include
+                account login and signup, song rating and sharing,
+                notifications, simple front-end authentication with JSON Web
+                Tokens, and route protection. I learned so much about the MVC
+                architecture, React, states, components, async calls, and PHP
+                through trial and error. Even though many shortcuts were taken
+                to meet deadlines, I've taken what I learned in this project
+                into future ones!
+              </p>
+              <footer class="blockquote-footer">
+                React, Bootstrap, PHP, MVC, REST API
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/mymusiclist"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GGreen">April, May 2023</h5>
+            <div class="card-body">
+              <h4 class="card-title">Emotion Classification Using ResNet-34</h4>
+              <p class="card-text">
+                The goal of this project was to train a neural network to detect
+                emotions in human speech, which we implemented using transfer
+                learning. We chose ResNet-34 as the pre-trained convolutional
+                neural network. Our model was able to accurately detect the
+                intended emotion when the emotion was firmly or strongly
+                expressed, but was less accurate when the emotion was expressed
+                more subtly. We extended the project to allow users to record
+                their voice and have the model classify the emotion in their
+                speech in real time.
+              </p>
+              <footer class="blockquote-footer">
+                CNN, ResNet-34, Transfer Learning, TensorFlow, Librosa, Fast.ai
+                (V1)
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/emotion-classification-CNNresnet34"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-12 g-4 hide-lg">
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GBlue">
+              January 2024-Present
+            </h5>
+            <div class="card-body">
+              <h4 class="card-title">Wesleyan Water Dispensers</h4>
+              <p class="card-text">
+                Currently an ongoing project, we aim to create a web app where
+                Wesleyan students and faculty can add, rate, and review water
+                dispensers around campus. Planned features include the ability
+                to search for water dispensers by distance, rating, and
+                accessibilty, visual aid to help users find their desired water
+                dispenser, and more!
+              </p>
+              <footer class="blockquote-footer">
+                React, Express.js, SQL, AWS
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/waterdispenser_v2"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GRed">November 2023</h5>
+            <div class="card-body">
+              <h4 class="card-title">MyMusicList (Android)</h4>
+              <p class="card-text">
+                Building off of MyMusicList (Web), we created a different
+                front-end client for the same back-end server. We experimented
+                with different versions of Android and various Android phones
+                when testing our app, and wrote unit tests to ensure everything
+                was functional.
+              </p>
+              <footer class="blockquote-footer">
+                React Native, Expo, MVC, Unit Testing
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/mymusiclist_expoapp"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GYellow">October 2023</h5>
+            <div class="card-body">
+              <h4 class="card-title">MyMusicList (Web)</h4>
+              <p class="card-text">
+                MyMusicList (web) is a basic web app where users can rate songs
+                and share their review with others. Basic features include
+                account login and signup, song rating and sharing,
+                notifications, simple front-end authentication with JSON Web
+                Tokens, and route protection. I learned so much about the MVC
+                architecture, React, states, components, async calls, and PHP
+                through trial and error. Even though many shortcuts were taken
+                to meet deadlines, I've taken what I learned in this project
+                into future ones!
+              </p>
+              <footer class="blockquote-footer">
+                React, Bootstrap, PHP, MVC, REST API
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/mymusiclist"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <h5 class="card-header text-white bg-GGreen">April, May 2023</h5>
+            <div class="card-body">
+              <h4 class="card-title">Emotion Classification Using ResNet-34</h4>
+              <p class="card-text">
+                The goal of this project was to train a neural network to detect
+                emotions in human speech, which we implemented using transfer
+                learning. We chose ResNet-34 as the pre-trained convolutional
+                neural network. Our model was able to accurately detect the
+                intended emotion when the emotion was firmly or strongly
+                expressed, but was less accurate when the emotion was expressed
+                more subtly. We extended the project to allow users to record
+                their voice and have the model classify the emotion in their
+                speech in real time.
+              </p>
+              <footer class="blockquote-footer">
+                CNN, ResNet-34, Transfer Learning, TensorFlow, Librosa, Fast.ai
+                (V1)
+              </footer>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a
+                href="https://github.com/LaughingPenguin/emotion-classification-CNNresnet34"
+                class="btn btn-dark"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
