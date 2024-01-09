@@ -1,11 +1,5 @@
-.bg-YlnMnBlue {
-    background: #3E517A;
-}
-.bg-Platinum {
-    background: #D7DEDC;
-}
-.bg-WhiteSmoke {
-    background: #F5F3F5;
+.bg-LinkedInBlue {
+    background: #0077B5;
 }
 .bg-Jet {
     background: #333A4C;
@@ -30,8 +24,28 @@
     font-size: 2.5rem;
 }
 
-@media (max-width: 991px) {
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+.hide-lg {
+    display: none;
+}
+@media (max-width: 991.98px) {
+    .hide-lg {
+        display: block;
+    }
+    .show-lg {
+        display: none;
+    }
     #profileimg {
         display: none;
+    }
+}
+@media (max-width: 575.98px) {
+    #mobile-response {
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
