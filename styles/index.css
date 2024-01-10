@@ -4,6 +4,9 @@
 .bg-Jet {
     background: #333A4C;
 }
+.bg-DarkJet {
+    background: #212529;
+}
 
 .navbar-toggler,
 .navbar-toggler:focus,
